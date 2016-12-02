@@ -1,0 +1,70 @@
+serverName: '&cServerName &7&l>> '
+
+mapVersion: '1'
+
+color:
+  enabled: '&a'
+  disabled: '&c'
+
+allowDropInMod: false
+allowBreakInMod: false
+allowPlaceInMod: false
+
+kickOnDeath: true
+
+scoreboard:
+  enabled: true
+  update: 15
+  title: '&c&lScoreboard&7&lTitle'
+  lines:
+    - '&cServerName: &l{lunatic_servername}'
+    - '&cMap Version: &l{lunatic_mapversion}'
+    - '&cModerator Mode: &l{lunatic_mod}'
+
+enderpearlCooldown:
+  enabled: true
+  length: 3
+  
+sotw:
+  enabled: false
+
+modItems:
+  0:
+   material: COMPASS
+   amount: 1
+   name: '&c&lTeleporter'
+   lore:
+     - 'Use this to teleport'
+  1:
+   material: WOOD_AXE
+   amount: 1
+   name: '&c&lWorldEdit Wand'
+   lore:
+     - 'WorldEdit Wand'
+  2:
+   material: EYE_OF_ENDER
+   amount: 1
+   action: 'invsee'
+   name: '&c&lInvsee'
+   lore:
+     - 'See into players inventory'
+  6:
+   material: WATCH
+   amount: 1
+   action: 'vanish'
+   name: '&c&lVanish'
+   lore:
+     - 'Use this to vanish and unvanish'
+  7:
+   material: BLAZE_ROD
+   amount: 1
+   name: '&c&lTeleporter'
+   lore:
+     - 'Use this to teleport'
+  8:
+   material: BOOK
+   amount: 1
+   action: 'random_teleport'
+   name: '&c&lRandom Teleport'
+   lore:
+     - 'Randomly teleport to a player'
