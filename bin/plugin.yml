@@ -1,0 +1,5 @@
+name: LunaticHCF
+main: us.timberdnd.lunatic.LunaticHCF
+version: 1.0
+author: DigitalCodex
+depend: [Vault]
